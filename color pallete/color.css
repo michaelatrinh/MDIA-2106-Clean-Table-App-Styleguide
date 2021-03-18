@@ -1,13 +1,76 @@
 .body{
-    
+
 }
 
-.rectangle{
-position: absolute;
-width: 622px;
-height: 6px;
-left: 63px;
-top: 201px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
+  .nav-bar {
+    overflow: hidden;
+    background-color: #59A091;
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  .nav-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+h1{
+    position: absolute;
+    width: 610px;
+    height: 131px;
+    left: 63px;
+    top: 56px;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 131px;
+    text-align: center;
+    
+    color: #000000; 
+}
+.rectangle1{
+    position: absolute;
+    width: 622px;
+    height: 6px;
+    left: 63px;
+    top: 201px;
+    
+    background: #59A091;
+}
+
+.visual_example{
+    position: absolute;
+    width: 693px;
+    height: 131px;
+    left: 661px;
+    top: 1146px;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 131px;
+    text-align: center;
+    
+    color: #000000; 
+}
+
+.rectangle2{
+position: absolute;
+width: 961px;
+height: 6px;
+left: 426px;
+top: 1289px;
 background: #59A091;
 }

@@ -219,7 +219,7 @@ line-height: 140%;
     width: 128px;
     height: 29px;
     left: 835px;
-    top: -730px;
+    top: -740px;
 }
 
 .mango_name{
@@ -262,7 +262,7 @@ top: -540px;
 width: 313px;
 height: 62px;
 left: 1148px;
-top: 472px;
+top: -865px;
 color: #F16D6D;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -272,7 +272,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 width: 313px;
 height: 31px;
 left: 1148px;
-top: 518px;
+bottom: 1220px;
 }
 
 .blackberry_color{
@@ -298,8 +298,8 @@ transform: translateY(-10px);
     position: relative;
     width: 313px;
     height: 62px;
-    left: 1150px;
-    top: 675px;  
+    left: 1148px;
+    top: -775px; 
     color: #302B40;
 
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -309,8 +309,8 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
     width: 313px;
     height: 46px;
-    left: 1150px;
-    top: 723px;
+    left: 1148px;
+    bottom: 1090px;
 }
 
 .coconut_color{
@@ -333,8 +333,8 @@ top: -160px;
     position: relative;
     width: 313px;
     height: 62px;
-    left: 1150px;
-    top: 870px;
+    left: 1148px;
+    top: -680px; 
     color: #FFFFFF;
     text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.4);
 }
@@ -343,8 +343,8 @@ top: -160px;
     position: relative;
 width: 313px;
 height: 46px;
-left: 1155px;
-top: 923px;
+left: 1148px;
+bottom: 970px;
 }
 
 .visual_example{

@@ -373,7 +373,12 @@ top: 1340px;
 background: #59A091;
 }
 
-.div2 {
+.body2 {
     background-color:#BEE2DC;
-    height: 500px;
+    height: 1000px;
 }
+
+.part2 {
+    display: inline-flex;
+}
+

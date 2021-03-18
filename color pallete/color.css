@@ -1,0 +1,13 @@
+.body{
+    
+}
+
+.rectangle{
+position: absolute;
+width: 622px;
+height: 6px;
+left: 63px;
+top: 201px;
+
+background: #59A091;
+}

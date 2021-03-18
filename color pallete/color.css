@@ -1,0 +1,223 @@
+.body{
+    background-color: #E7F2F0; 
+}
+
+body{
+    background-color: #E7F2F0; 
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+  }
+
+  .nav-bar {
+    overflow: hidden;
+    background-color: #59A091;
+    font-family: 'Manrope', sans-serif;
+
+  }
+  
+  .nav-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+    transition: 0.3s;
+  }
+
+  /*mouse over*/
+  .nav-bar a:hover{
+      background-color: #2D7969; 
+  }
+  
+
+h1{
+    position: absolute;
+    width: 610px;
+    height: 131px;
+    left: 63px;
+    top: 56px;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 131px;
+    text-align: center;
+    
+    color: #000000; 
+}
+.rectangle1{
+    position: absolute;
+    width: 622px;
+    height: 6px;
+    left: 63px;
+    top: 201px;
+    
+    background: #59A091;
+}
+
+.seaweed_text{
+    position: absolute;
+    width: 479px;
+    height: 90px;
+    left: 127px;
+    top: 275px;
+    
+    font-family: Quicksand;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+.seaweed{
+    font-weight: bold;
+    color: #59A091;
+}
+
+.mango_text{
+    position: absolute;
+    width: 483px;
+    height: 127px;
+    left: 123px;
+    top: 419px;
+    
+    font-family: Quicksand;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000; 
+}
+.mango{
+    font-weight: bold;
+    color: #FFC32E; 
+}
+
+.salmon_text{
+    position: absolute;
+width: 466px;
+height: 141px;
+left: 123px;
+top: 577px;
+font-family: Quicksand;
+font-style: normal;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+}
+
+.salmon{
+    font-weight: bold;
+    color: #F16D6D;
+  }
+
+.blackberry_text{
+    position: absolute;
+width: 483px;
+height: 127px;
+left: 123px;
+top: 749px;
+
+font-family: Quicksand;
+font-style: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+.blackberry{
+    font-weight: bold;
+    color: #302B40;
+}
+
+.coconut_text{
+    position: absolute;
+width: 501px;
+height: 127px;
+left: 123px;
+top: 907px;
+
+font-family: Quicksand;
+font-style: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+.coconut{
+    font-weight: normal;
+    color:#FFFFFF;
+    text-shadow:2px 2px #000000;
+}
+
+.seaweed_color{
+    position: absolute;
+    width: 128px;
+    height: 124px;
+    left: 772px;
+    top: 104px;
+}
+
+.mango_color{
+    position: absolute;
+width: 127px;
+height: 124px;
+left: 772px;
+top: 294px;
+}
+
+.salmon_color{
+    position: absolute;
+width: 128px;
+height: 123px;
+left: 772px;
+top: 485px;
+}
+
+.blackberry_color{
+    position: absolute;
+width: 127px;
+height: 124px;
+left: 772px;
+top: 684px;
+}
+
+.coconut_color{
+    position: absolute;
+width: 127px;
+height: 124px;
+left: 772px;
+top: 884px;
+}
+
+.visual_example{
+    position: absolute;
+    width: 693px;
+    height: 131px;
+    left: 661px;
+    top: 1146px;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 131px;
+    text-align: center;
+    
+    color: #000000; 
+}
+
+.rectangle2{
+position: absolute;
+width: 961px;
+height: 6px;
+left: 426px;
+top: 1289px;
+background: #59A091;
+}

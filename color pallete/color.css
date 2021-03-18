@@ -205,6 +205,9 @@ line-height: 140%;
     left: 1500px;
     top: -2175px;
 }
+.seaweed_color:hover{
+    transform: translateY(-10px);   
+    }
 
 .mango_color{
     position: relative;
@@ -221,6 +224,9 @@ line-height: 140%;
     left: 835px;
     top: -740px;
 }
+.mango_color:hover{
+    transform: translateY(-10px);   
+    }
 
 .mango_name{
     position: relative;
@@ -248,7 +254,9 @@ height: 123px;
 left: 510px;
 top: -460px;
 }
-
+.salmon_color:hover{
+    transform: translateY(-10px);   
+    }
 .salmon_color_bar{
     position: relative;
 width: 128px;
@@ -320,6 +328,9 @@ height: 124px;
 left: 250px;
 top: -80px;
 }
+.coconut_color:hover{
+    transform: translateY(-10px);   
+    }
 
 .coconut_color_bar{
     position: relative;

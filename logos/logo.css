@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-bar {
+    overflow: hidden;
+    background-color: #59A091;
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  .nav-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  

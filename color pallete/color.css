@@ -183,8 +183,8 @@ line-height: 140%;
     position: relative;
     width: 128px;
     height: 29px;
-    left: 960px;
-    top: 152px;
+    left: 965px;
+    top: -915px;
 }
 
 .seaweed_name{
@@ -192,7 +192,7 @@ line-height: 140%;
     width: 313px;
     height: 62px;
     left: 1148px;
-    top: 102px;
+    top: -1040px;
 
     color: #59A091;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
@@ -202,8 +202,8 @@ line-height: 140%;
     position: relative;
     width: 313px;
     height: 31px;
-    left: 1150px;
-    top: 150px;  
+    left: 1500px;
+    top: -2175px;
 }
 
 .mango_color{
@@ -211,15 +211,15 @@ line-height: 140%;
     width: 128px;
     height: 124px;
     left: 640px;
-    top: -650px;
+    top: -655px;
 }
 
 .mango_color_bar{
     position: relative;
     width: 128px;
     height: 29px;
-    left: 960px;
-    top: 342px;
+    left: 835px;
+    top: -730px;
 }
 
 .mango_name{
@@ -227,7 +227,7 @@ line-height: 140%;
     width: 313px;
     height: 62px;
     left: 1148px;
-    top: 294px;
+    bottom: 970px;
  
     color: #FFC32E;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -238,7 +238,7 @@ line-height: 140%;
     width: 313px;
     height: 31px;
     left: 1149px;
-    top: 342px;
+    bottom: 1360px;
 }
 
 .salmon_color{
@@ -253,8 +253,8 @@ top: -460px;
     position: relative;
 width: 128px;
 height: 30px;
-left: 960px;
-top: 532px;
+left: 700px;
+top: -540px;
 }
 
 .salmon_name{
@@ -279,7 +279,7 @@ top: 518px;
     position: relative;
 width: 127px;
 height: 124px;
-left: 772px;
+left: 380px;
 top: -270px;
 }
 
@@ -290,8 +290,8 @@ transform: translateY(-10px);
     position: relative;
     width: 128px;
     height: 29px;
-    left: 960px;
-    top: 732px;
+    left: 570px;
+    top: -350px;
 }
 
 .blackberry_name{
@@ -317,16 +317,16 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
 width: 127px;
 height: 124px;
-left: 772px;
-top: 884px;
+left: 250px;
+top: -80px;
 }
 
 .coconut_color_bar{
     position: relative;
 width: 128px;
 height: 29px;
-left: 960px;
-top: 932px;
+left: 430px;
+top: -160px;
 }
 
 .coconut_name{

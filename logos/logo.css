@@ -30,4 +30,33 @@ ul {
   .nav-bar a:hover{
       background-color: #2D7969; 
   }
+
+
+/*section1*/
+
+  .slogo1{
+      margin-top: 50px;
+      padding: 50px;
+  }
+
+  .underline{
+    border-bottom: 6px solid #59A091;
+    width: 1023px;
+  }
+
+  .header1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 96px;
+  }
+
+  .sec-txt {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+    margin-top: 30px;
+  }
+
+  p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+  }
   

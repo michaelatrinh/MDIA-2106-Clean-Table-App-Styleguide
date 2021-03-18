@@ -1,13 +1,18 @@
+body{
+    background-color: #E7F2F0; 
+}
+
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
   }
 
   .nav-bar {
     overflow: hidden;
     background-color: #59A091;
     font-family: 'Manrope', sans-serif;
+
   }
   
   .nav-bar a {
@@ -17,5 +22,12 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+
+    transition: 0.3s;
+  }
+
+  /*mouse over*/
+  .nav-bar a:hover{
+      background-color: #2D7969; 
   }
   

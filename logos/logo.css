@@ -31,6 +31,12 @@ ul {
       background-color: #2D7969; 
   }
 
+.container{
+    width: 1440px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*section1*/
 

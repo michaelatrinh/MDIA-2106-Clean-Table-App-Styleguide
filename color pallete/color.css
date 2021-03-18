@@ -205,6 +205,9 @@ line-height: 140%;
     left: 1500px;
     top: -2175px;
 }
+.seaweed_color:hover{
+    transform: translateY(-10px);   
+    }
 
 .mango_color{
     position: relative;
@@ -219,8 +222,11 @@ line-height: 140%;
     width: 128px;
     height: 29px;
     left: 835px;
-    top: -730px;
+    top: -740px;
 }
+.mango_color:hover{
+    transform: translateY(-10px);   
+    }
 
 .mango_name{
     position: relative;
@@ -248,7 +254,9 @@ height: 123px;
 left: 510px;
 top: -460px;
 }
-
+.salmon_color:hover{
+    transform: translateY(-10px);   
+    }
 .salmon_color_bar{
     position: relative;
 width: 128px;
@@ -262,7 +270,7 @@ top: -540px;
 width: 313px;
 height: 62px;
 left: 1148px;
-top: 472px;
+top: -865px;
 color: #F16D6D;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -272,7 +280,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 width: 313px;
 height: 31px;
 left: 1148px;
-top: 518px;
+bottom: 1220px;
 }
 
 .blackberry_color{
@@ -298,8 +306,8 @@ transform: translateY(-10px);
     position: relative;
     width: 313px;
     height: 62px;
-    left: 1150px;
-    top: 675px;  
+    left: 1148px;
+    top: -775px; 
     color: #302B40;
 
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -309,8 +317,8 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
     width: 313px;
     height: 46px;
-    left: 1150px;
-    top: 723px;
+    left: 1148px;
+    bottom: 1090px;
 }
 
 .coconut_color{
@@ -320,6 +328,9 @@ height: 124px;
 left: 250px;
 top: -80px;
 }
+.coconut_color:hover{
+    transform: translateY(-10px);   
+    }
 
 .coconut_color_bar{
     position: relative;
@@ -333,8 +344,8 @@ top: -160px;
     position: relative;
     width: 313px;
     height: 62px;
-    left: 1150px;
-    top: 870px;
+    left: 1148px;
+    top: -680px; 
     color: #FFFFFF;
     text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.4);
 }
@@ -343,8 +354,8 @@ top: -160px;
     position: relative;
 width: 313px;
 height: 46px;
-left: 1155px;
-top: 923px;
+left: 1148px;
+bottom: 970px;
 }
 
 .visual_example{
@@ -372,3 +383,13 @@ left: 470px;
 top: 1340px;
 background: #59A091;
 }
+
+.body2 {
+    background-color:#BEE2DC;
+    height: 1000px;
+}
+
+.part2 {
+    display: inline-flex;
+}
+

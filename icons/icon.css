@@ -62,8 +62,8 @@ ul {
 }
 
 .image1 {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: relative;
     top:100px;
 
@@ -76,13 +76,13 @@ ul {
 }
 
 .iconcont{
-    font-size: 36px;
+    font-size: 30px;
     font-weight: medium;
     font-family: manrope;
 }
 
 .para1{
-    font-size: 36px;
+    font-size: 30px;
     font-family: quicksand;
 }
 
@@ -135,7 +135,7 @@ ul {
 }
 
 .imagerypara{
-    font-size:36px;
+    font-size:30px;
     font-family:quicksand;
     position: relative;
     left:-50px;

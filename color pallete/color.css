@@ -57,9 +57,7 @@ h1{
     position: relative;
     width: 622px;
     height: 6px;
-    left: 63px;
-    top: 230px;
-    
+    left: 63px;    
     background: #59A091;
 }
 
@@ -68,7 +66,7 @@ h1{
     width: 479px;
     height: 90px;
     left: 127px;
-    top: 275px;
+    top: 30px;
     
     font-family: Quicksand;
     font-style: normal;
@@ -87,7 +85,7 @@ h1{
     width: 483px;
     height: 127px;
     left: 123px;
-    top: 419px;
+    top: 70px;
     
     font-family: Quicksand;
     font-style: normal;
@@ -105,7 +103,7 @@ h1{
 width: 466px;
 height: 141px;
 left: 123px;
-top: 577px;
+top: 70px;
 font-family: Quicksand;
 font-style: normal;
 font-size: 18px;
@@ -123,7 +121,7 @@ color: #000000;
 width: 483px;
 height: 127px;
 left: 123px;
-top: 749px;
+top: 70px;
 
 font-family: Quicksand;
 font-style: normal;
@@ -142,7 +140,7 @@ color: #000000;
 width: 501px;
 height: 127px;
 left: 123px;
-top: 907px;
+top: 70px;
 
 font-family: Quicksand;
 font-style: normal;
@@ -178,7 +176,7 @@ line-height: 140%;
     width: 128px;
     height: 124px;
     left: 772px;
-    top: 104px;
+    top: -840px;
 }
 
 .seaweed_color_bar{
@@ -210,10 +208,10 @@ line-height: 140%;
 
 .mango_color{
     position: relative;
-width: 127px;
-height: 124px;
-left: 772px;
-top: 294px;
+    width: 128px;
+    height: 124px;
+    left: 640px;
+    top: -650px;
 }
 
 .mango_color_bar{
@@ -247,8 +245,8 @@ top: 294px;
     position: relative;
 width: 128px;
 height: 123px;
-left: 772px;
-top: 485px;
+left: 510px;
+top: -460px;
 }
 
 .salmon_color_bar{
@@ -282,7 +280,7 @@ top: 518px;
 width: 127px;
 height: 124px;
 left: 772px;
-top: 684px;
+top: -270px;
 }
 
 .blackberry_color:hover{

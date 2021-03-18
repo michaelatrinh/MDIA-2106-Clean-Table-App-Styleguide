@@ -1,7 +1,9 @@
-body{
+html, body{
     background-color: #D7F0EC; 
     font-family: 'Quicksand', sans-serif;
     font-size: 35px;
+
+    margin: 0;
 }
 
 /*nav-bar*/
@@ -157,7 +159,7 @@ ul {
 .slogo3{
     margin-top: 50px;
     padding: 50px;
-    height: 1205px;
+    height: 1100px;
 }
 
 .sc1{
@@ -166,20 +168,41 @@ ul {
 
 .stk-logo1{
     position: absolute;
-    margin-left: 700px;
-    margin-top: -100px;
+    margin-left: 650px;
+    margin-top: -50px;
+}
+
+.body1{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 50px;
+    width: 500px;
 }
 
 .stk-logo2{
     position: absolute;
-    margin-left: 700px;
-    margin-top: 150px;
+    margin-left: 650px;
+    margin-top: 300px;
+}
+
+.body2{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+    width: 500px;
 }
 
 .stk-logo3{
     position: absolute;
-    margin-left: 700px;
-    margin-top: 300px;
+    margin-left: 650px;
+    margin-top: 630px;
+}
+
+.body3{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 50px;
+    width: 500px;
 }
 
 /*section 4*/

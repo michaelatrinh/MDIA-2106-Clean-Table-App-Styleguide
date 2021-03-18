@@ -1,5 +1,6 @@
-body{
-    background-color: #E7F2F0; 
+html, body{
+    background-color: #D7F0EC; 
+    margin: 0;
 }
 
 ul {
@@ -31,15 +32,15 @@ ul {
       background-color: #2D7969; 
   }
 .icondiv{
-    background-color: #E7F2F0;
-    margin: auto;
+    margin-top: 100px;
+    
 }
 
 .iconsheader{
     font-size: 96px;
     position:relative;
     left:50px;
-    top: -40px;
+    margin-top: 50px;
     font-family: manrope;
 }
 
@@ -57,7 +58,6 @@ ul {
     display:inline-flex;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 35px;
     margin-bottom: 35px;
 }
 
@@ -91,12 +91,13 @@ ul {
     padding-top: 1px;
     height: 1000px;
     margin-bottom: 0%;
+    margin-top: 100px;
 }
 
 .imageryheader{
     font-size: 96px;
     position:relative;
-    left:650px;
+    left:1000px;
     top: -40px;
     font-family: manrope;
 }
@@ -137,7 +138,7 @@ ul {
     font-size:30px;
     font-family:quicksand;
     position: relative;
-    left:-80px;
+    left:-50px;
 }
 
 .imagerydiv{
@@ -145,8 +146,12 @@ ul {
 }
 
 .container{
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: -95px;
+    width: 1440px;
+    background-color: #E7F2F0;
 }
 
 img:hover {

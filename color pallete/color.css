@@ -372,3 +372,13 @@ left: 470px;
 top: 1340px;
 background: #59A091;
 }
+
+.body2 {
+    background-color:#BEE2DC;
+    height: 1000px;
+}
+
+.part2 {
+    display: inline-flex;
+}
+

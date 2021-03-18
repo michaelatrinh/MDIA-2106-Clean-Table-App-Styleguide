@@ -202,8 +202,9 @@ line-height: 140%;
     position: relative;
     width: 313px;
     height: 31px;
-    left: 1500px;
-    top: -2175px;
+    left:1150px;
+    bottom: 1479px;
+    
 }
 
 .mango_color{
@@ -352,7 +353,7 @@ bottom: 970px;
     width: 693px;
     height: 131px;
     left: 661px;
-    top: 1146px;
+    top: 50px;
     
     font-family: Manrope;
     font-style: normal;
@@ -369,16 +370,31 @@ position: relative;
 width: 900px;
 height: 6px;
 left: 470px;
-top: 1340px;
+top: 5px;
 background: #59A091;
 }
 
 .body2 {
     background-color:#BEE2DC;
-    height: 1000px;
+    height: 1900px;
+    position: relative;
+    bottom:900px;
 }
 
 .part2 {
     display: inline-flex;
+    margin:50px;
 }
 
+.textandicons{
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+.para{
+    position: relative;
+    left:600px;
+}
+
+.imagess

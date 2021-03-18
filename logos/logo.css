@@ -1,6 +1,10 @@
 body{
     background-color: #E7F2F0; 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
 }
+
+/*nav-bar*/
 
 ul {
     list-style-type: none;
@@ -31,11 +35,18 @@ ul {
       background-color: #2D7969; 
   }
 
+  /* general */
+  span{
+    font-weight: 900;
+  }
+
+
 .container{
     width: 1440px;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
+
+    background-color: #E7F2F0;
 }
 
 /*section1*/
@@ -43,6 +54,7 @@ ul {
   .slogo1{
       margin-top: 50px;
       padding: 50px;
+      height: 968px;
   }
 
   .underline{
@@ -65,4 +77,152 @@ ul {
     font-family: 'Quicksand', sans-serif;
     font-size: 36px;
   }
-  
+
+  .table2{
+    margin-top: 500px;
+    position: absolute;
+  }
+
+
+  .caption1{
+      width: 400px;
+      margin-left: 400px; 
+      margin-top: 100px;
+      position: absolute; 
+  }
+
+  .caption2{
+    width: 400px;
+    position: absolute; 
+    margin-left: 600px;
+}
+
+.tbl-img-1{
+    position: absolute;
+    margin-top: 250px;
+}
+
+.tbl-img-2{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: -380px;
+}
+
+  .arw-img-1{
+    margin-top: 200px;
+    margin-left: 300px;
+    position: absolute;
+  }
+
+  .arw-img-2{
+      transform: rotate(180deg);
+      margin-left: 1050px;
+  }
+
+/*section 2*/
+.slogo2{
+    margin-top: 50px;
+    padding: 50px;
+    height: 1280px;
+
+    background-color: #BEE2DC;
+}
+
+.sc2-1{
+   position: relative;
+   margin-right: 100px;
+}
+
+.sc2-2{
+    margin-top: 100px;
+    padding: 10px; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*section 3*/
+.slogo3{
+    margin-top: 50px;
+    padding: 50px;
+    height: 1375px;
+}
+
+.sc3-2{
+
+}
+
+.stk-logo1, .stk-logo2, .stk-logo3{
+    float: right;
+}
+
+/*section 4*/
+.slogo4{
+    margin-top: 50px;
+    padding: 50px;
+    height: 1375px;
+
+    background-color: #BEE2DC;
+}
+
+.sc4-2{
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 900;
+}
+
+.sc4-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo4-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+}
+
+.logo4-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+}
+
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+}
+
+.logo4-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+}
+
+
+/*section 5*/
+.slogo5{
+    margin-top: 50px;
+    padding: 50px;
+    height: 1343px;
+}
+

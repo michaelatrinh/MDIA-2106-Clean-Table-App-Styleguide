@@ -169,7 +169,7 @@ h1{
     position: relative;
     width: 479px;
     height: 90px;
-    left: 150px;
+    left: 100px;
     top: 50px;
     
     font-family: Quicksand;
@@ -521,7 +521,7 @@ bottom: 970px;
     position: relative;
     width: 693px;
     height: 131px;
-    left: 661px;
+    left: 561px;
     top: 50px;
     
     font-family: Manrope;
@@ -538,7 +538,7 @@ bottom: 970px;
 position: relative;
 width: 900px;
 height: 6px;
-left: 470px;
+left: 370px;
 top: 5px;
 background: #59A091;
 }
@@ -574,17 +574,16 @@ background: #59A091;
     margin-left:100px;
 }
 
-
 .imagess {
     position:relative;
-    left:200px;
+    left:-50px;
 }
 
 .seaweed_text2{
     position: relative;
     width: 479px;
     height: 90px;
-    left: 333px;
+    right: 13px;
     top: -20px;
     
     font-family: Quicksand;
@@ -597,7 +596,7 @@ background: #59A091;
     position: relative;
     width: 483px;
     height: 127px;
-    left: 300px;
+    right: 700px;
     top: -40px;
     
     font-family: Quicksand;
@@ -607,10 +606,10 @@ background: #59A091;
 }
 
 .salmon_text2{
-    position: relative;
+position: relative;
 width: 466px;
 height: 141px;
-left: 290px;
+right: 190px;
 top: -40px;
 font-family: Quicksand;
 font-style: normal;
@@ -622,7 +621,7 @@ color: #000000;
     position: relative;
 width: 501px;
 height: 127px;
-left: 390px;
+right: 390px;
 top: -50px;
 
 font-family: Quicksand;
@@ -636,23 +635,25 @@ color: #000000;
     position: relative;
 width: 483px;
 height: 127px;
-left: 240px;
-top: -30px;
+right: 250px;
+top: -50px;
 
 font-family: Quicksand;
 font-style: normal;
 font-size: 30px;
 
 color: #000000;
-}
 
-.img1{
-    margin-top: 70px;
 }
 
 .img1{
     margin-top: 70px;
 
+
+
 }
 
+.img1{
+    margin-top: 70px;
+}
 

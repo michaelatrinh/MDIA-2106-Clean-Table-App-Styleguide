@@ -1,7 +1,19 @@
+
 html, body{
     background-color: #D7F0EC; 
     margin: 0px;
+    position: relative;
 }
+
+
+#circle {
+    position:absolute;
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    border:2px solid #4b9e90;
+}
+
 
 .container{
     background-color: #E7F2F0; 
@@ -270,6 +282,8 @@ line-height: 140%;
     height: 124px;
     left: 772px;
     top: -840px;
+
+    transition: 0.3s;
 }
 
 .seaweed_color_bar{
@@ -309,6 +323,8 @@ line-height: 140%;
     height: 124px;
     left: 640px;
     top: -655px;
+
+    transition: 0.3s;
 }
 
 .mango_color_bar{
@@ -347,6 +363,9 @@ width: 128px;
 height: 123px;
 left: 510px;
 top: -460px;
+
+transition: 0.3s;
+
 }
 .salmon_color:hover{
     transform: translateY(-10px);   
@@ -383,6 +402,8 @@ width: 127px;
 height: 124px;
 left: 380px;
 top: -270px;
+
+transition: 0.3s;
 }
 
 .blackberry_color:hover{
@@ -421,6 +442,8 @@ width: 127px;
 height: 124px;
 left: 250px;
 top: -80px;
+
+transition: 0.3s;
 }
 .coconut_color:hover{
     transform: translateY(-10px);   
@@ -504,6 +527,7 @@ background: #59A091;
     margin-left:100px;
 }
 
+
 .imagess {
     position:relative;
     left:200px;
@@ -573,4 +597,15 @@ font-style: normal;
 font-size: 30px;
 
 color: #000000;
+
 }
+
+
+.img1{
+    margin-top: 70px;
+}
+
+
+
+
+

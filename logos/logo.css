@@ -322,22 +322,31 @@ ul {
 }
 
 .logo4-2{
-    margin-top: 85px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    position: relative;
+    top:16px;
+
     width: 350px;
 }
 
-.text1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
+.text1{
+    margin-top: 20px;
+    margin-left: -10px;
     width: 100px;
+
+    position: relative;
+    top:-15px;
+    left: -20px;
+
+    
 }
 
 .logo4-3{
@@ -347,10 +356,11 @@ ul {
     align-items: center;
 
     width: 350px;
+    margin-top: -10px;
 }
 
 .moveside1{
-    margin-left: 50px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -363,6 +373,9 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    position: relative;
+    top:-5px;
 }
 
 .moveside3{
@@ -455,3 +468,55 @@ img:hover {
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+.seaweed{
+    transition: 0.3s;
+}
+
+.seaweed:hover{
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 900;
+    background-color: #59A091;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.blackberry{
+    transition: 0.3s;
+}
+
+.blackberry:hover{
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 900;
+    background-color: #302B40;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.white{
+    transition: 0.3s;
+}
+
+.white:hover{
+    letter-spacing: 5px;
+    color: black;
+    font-weight: 900;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.black{
+    transition: 0.3s;
+}
+
+.black:hover{
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 900;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}

@@ -160,6 +160,7 @@ ul {
 .main_second_blurb p:nth-child(2):hover{
     color: #59A091;
     font-weight: 900;
+    letter-spacing: 5px;
 }
 
 .main_second_blurb p:nth-child(3){
@@ -185,6 +186,7 @@ ul {
 .main_second_blurb p:nth-child(4):hover{
     color: #59A091;
     font-weight: 900;
+    letter-spacing: 5px;
 }
 
 /* --- PAGE 2 ------------------------------------------------------------------ */

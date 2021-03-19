@@ -1,7 +1,19 @@
+
 html, body{
     background-color: #D7F0EC; 
     margin: 0px;
+    position: relative;
 }
+
+
+#circle {
+    position:absolute;
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    border:2px solid #4b9e90;
+}
+
 
 .container{
     background-color: #E7F2F0; 
@@ -553,3 +565,6 @@ color: #000000;
     margin-top: 70px;
 
 }
+
+
+

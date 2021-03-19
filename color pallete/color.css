@@ -11,7 +11,6 @@ html, body{
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
-
     margin-top: -63px;
 }
 
@@ -45,38 +44,12 @@ ul {
   }
 
 
-/*
-ul {
-    list-style-type: none;
-    margin: auto;
-    padding: auto;
-  }
-
-  .nav-bar {
-    overflow: hidden;
-    background-color: #59A091;
-    font-family: 'Manrope', sans-serif;
-
-  }
-  .nav-bar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    transition: 0.3s;
-  }
-
-  .nav-bar a:hover{
-      background-color: #2D7969; 
-  }
-*/
-
   .circle {
-	width: 50vh;
-	height: 50vh;
-	position: absolute;
+	width: 7vh;
+	height: 7vh;
+	position: fixed;
+    left:30px;
+    top:100px;
 	border-radius: 50%;
 }
 
@@ -84,74 +57,212 @@ ul {
 #one {
 	background-color: #59A091;
 	transition: 1s;
-	opacity: 0.5;
+	opacity: 0.7;
 }
 #two {
 	background-color: #6FC3B2;
 	transition: 1s;
-	opacity: 0.5;
+	opacity: 0.7;
 }
 
 #three {
 	background-color: #B8E0D8;
 	transition: 1s;
-	opacity: 0.5;
+	opacity: 0.7;
 }
 
 #four {
 	background-color: #D4E9E5;
 	transition: 1s;
-	opacity: 0.5;
-}
-#five {
-	background-color: green;
-	transition: 1s;
-	opacity: 0.5;
+	opacity: 0.7;
 }
 
-#cc {
-	position:relative;
-	width: 50vh;
-	height: 50vh;
-	border-radius: 50%;
-	overflow: hidden;
-}
-
-#cc:hover #two {
+#sw:hover #two {
 	transform: translate(0px, 75px);
 }
-#cc:hover #three {
+#sw:hover #three {
 	transform: translate(0px, -75px);
 }
-#cc:hover #four {
+#sw:hover #four {
 	transform: translate(75px, 0px);
 }
-#cc:hover #five {
-	transform: translate(-75px, 0px);
+
+
+/*mango*/
+.circle_two {
+	width: 7vh;
+	height: 7vh;
+	position: fixed;
+    left:30px;
+    top:240px;
+	border-radius: 50%;
 }
 
-#mb {
-	position: absolute;
-	font-family: "Oswald", sans-serif;
-	letter-spacing: 0.5px;
-	bottom: 0px;
-	display: flex;
-	justify-content: center;
-	width: 100vw;
-	background-color: #59A091;
-	color: white;
+#one_two {
+	background-color: #FFC32E;
+	transition: 1s;
+	opacity: 0.7;
+}
+#two_two {
+	background-color: #FFD56C;
+	transition: 1s;
+	opacity: 0.7;
 }
 
-#mb a {
-	color: white;
-	text-decoration: none;
-	font-weight: bold;
-	padding: 0px;
+#three_two {
+	background-color: #FFE4A3;
+	transition: 1s;
+	opacity: 0.7;
 }
 
-#mb p {
-	padding: 5px;
-	margin: 0px;
+#four_two {
+	background-color: #FFF3D5;
+	transition: 1s;
+	opacity: 0.7;
+}
+
+#mg:hover #two_two {
+	transform: translate(0px, 75px);
+}
+#mg:hover #three_two {
+	transform: translate(0px, -75px);
+}
+#mg:hover #four_two {
+	transform: translate(75px, 0px);
+}
+
+
+/*salmon*/
+.circle_three {
+	width: 7vh;
+	height: 7vh;
+	position: fixed;
+    left:30px;
+    top:380px;
+	border-radius: 50%;
+}
+
+
+#one_three {
+	background-color: #F16D6D;
+	transition: 1s;
+	opacity: 0.7;
+}
+#two_three {
+	background-color: #FA9090;
+	transition: 1s;
+	opacity: 0.7;
+}
+
+#three_three {
+	background-color: #FFBCBC;
+	transition: 1s;
+	opacity: 0.7;
+}
+
+#four_three {
+	background-color: #FCD8D8;
+	transition: 1s;
+	opacity: 0.7;
+}
+
+
+#sm:hover #two_three {
+	transform: translate(0px, 75px);
+}
+#sm:hover #three_three {
+	transform: translate(0px, -75px);
+}
+#sm:hover #four_three {
+	transform: translate(75px, 0px);
+}
+
+/*blackberry*/
+.circle_four {
+	width: 7vh;
+	height: 7vh;
+	position: fixed;
+    left:30px;
+    top:520px;
+	border-radius: 50%;
+}
+#one_four {
+	background-color: #302B40;
+	transition: 1s;
+	opacity: 0.9;
+}
+#two_four {
+	background-color: #484848;
+	transition: 1s;
+	opacity: 0.7;
+}
+
+#three_four {
+	background-color: #9B9B9B;
+	transition: 1s;
+	opacity: 0.7;
+}
+
+#four_four {
+	background-color: #DADADA;
+	transition: 1s;
+	opacity: 0.7;
+}
+
+
+#bb:hover #two_four {
+	transform: translate(0px, 75px);
+}
+#bb:hover #three_four {
+	transform: translate(0px, -75px);
+}
+#bb:hover #four_four {
+	transform: translate(75px, 0px);
+}
+
+
+/*coconut*/
+.circle_five {
+	width: 7vh;
+	height: 7vh;
+	position: fixed;
+    left:30px;
+    top:660px;
+	border-radius: 50%;
+}
+
+#one_five {
+	background-color: #FFFFFF;
+	transition: 1s;
+	opacity: 0.9;
+}
+#two_five {
+	background-color: #B6B6B6;
+	transition: 1s;
+	opacity: 0.7;
+}
+
+#three_five {
+	background-color: #6B6B6B;
+	transition: 1s;
+	opacity: 0.7;
+}
+
+#four_five {
+	background-color: #303030;
+	transition: 1s;
+	opacity: 0.7;
+}
+
+
+#cn:hover #two_five {
+	transform: translate(0px, 75px);
+}
+#cn:hover #three_five {
+	transform: translate(0px, -75px);
+}
+#cn:hover #four_five {
+	transform: translate(75px, 0px);
 }
 
 h1{

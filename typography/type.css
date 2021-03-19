@@ -77,11 +77,11 @@ ul {
     padding-left: 50px;
     padding-right: 50px;
 }
-
+/*
 .page2{
     padding-left: 50px;
 }
-
+*/
 .main_blurb p{
     font-size: 48px;
     font-family: 'Quicksand', sans-serif;
@@ -388,6 +388,8 @@ ul {
 }
 
 .quicksand_showcase_3 p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20pt;
     position: relative;
     top: -4.5rem;
 }

@@ -1,5 +1,10 @@
 html, body{
     margin: 0;
+    max-width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body{
@@ -18,7 +23,7 @@ ul {
     overflow: hidden;
     background-color: #59A091;
     font-family: 'Manrope', sans-serif;
-
+    margin: 8px;
   }
   
 .nav-bar a {
@@ -40,12 +45,12 @@ ul {
 .main{
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    height: 100vh;
 }
 
 .main_title{
     font-family: 'Manrope', sans-serif;
+    font-size: 96px;
+    margin-bottom: 0;
 }
 
 .rectangle1{
@@ -63,11 +68,25 @@ ul {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    height: 1024px;
+    width: 1440px;
+}
+
+.page1{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.page2{
+    padding-left: 50px;
 }
 
 .main_blurb p{
     font-size: 48px;
     font-family: 'Quicksand', sans-serif;
+    position: relative;
+    left: 168px;
+    top: 100px;
 }
 
 .span1{
@@ -78,9 +97,40 @@ ul {
     color: #FFC32E;
 }
 
+.main_second_blurb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .main_second_blurb p{
     font-size: 36px;
     font-family: 'Quicksand', sans-serif;
+    position: relative;
+    left: 168px;
+    top: 50px;
+}
+
+.main_second_blurb p:nth-child(2){
+    display: flex;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 40px;
+    margin-top: 4rem;
+}
+.main_second_blurb p:nth-child(3){
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    margin: 0;
+}
+.main_second_blurb p:nth-child(4){
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
 }
 
 
@@ -89,11 +139,17 @@ ul {
 
 .page2{
     background-color: #BEE2DC;
+    max-width: 100%;
+    width: 100vw;
 }
 
 .page2_main_blurb p{
     font-size: 36px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Manrope', sans-serif;
+}
+
+.page2_main_blurb{
+    margin-bottom: 75px;
 }
 
 .page2_span1{
@@ -109,8 +165,8 @@ ul {
     
 }
 
-.manrope_showcase_1, .manrope_showcase_2{
-    display: flex;
+.manrope_showcase div{
+    padding-left: 1rem;
 }
 
 .manrope_showcase_1{
@@ -119,6 +175,7 @@ ul {
 
     flex-direction: column;
     border-right: 3px solid black;
+    padding-right: 10rem;
 }
 
 .manrope_showcase_1 h1{
@@ -143,24 +200,72 @@ ul {
 
     flex-direction: column;
     justify-content: space-evenly;
+    padding-right: 3rem;
 }
 
 .manrope_showcase_3{
     display: flex;
     flex-grow: 3;
     flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.manrope_showcase_3 h1, p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+}
+
+.manrope_showcase_3 h1:first-child{
+    font-size: 64pt;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: relative;
+    top: -1.66rem;
+}
+
+.manrope_showcase_3 h1:nth-child(2){
+    font-size: 27pt;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    top: -2.5rem;
+}
+
+.manrope_showcase_3 p{
+    font-size: 20pt;
+    margin: 0;
+    position: relative;
+    top: -3rem;
 }
 
 .manrope_showcase_3_links_display{
     display: flex;
     align-items: center;
     flex-direction: row;
+    position: relative;
+    top: 0.75rem;
 }
 
 .manrope_showcase_3_links_display p{
     display: flex;
     align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
+.manrope_showcase_3_links_display p:nth-child(2){
+    position: relative;
+    left: 1rem;
+}
+
+.manrope_showcase_3_links_display p:nth-child(3){
+    position: relative;
+    left: 3rem;
+}
+
+.manrope_showcase_3_links_display p:nth-child(4){
+    position: relative;
+    left: 4rem;
 }
 
 .arrow{
@@ -178,4 +283,155 @@ ul {
     background-color: black;
     height: 72px;
     width: 276px;
+}
+
+.manrope_showcase_3_button_display p{
+    color: white;
+    position: relative;
+    top: 1.5rem;
+    left: 4.5rem;
+    font-size: 14pt;
+}
+
+/* --- PAGE 3 ---------------------------------------------------------------- */
+
+
+.page3{
+    width: 100%;
+    padding-left: 50px;
+    height: 940px;
+}
+
+.page3_main_blurb p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+}
+
+.page3_main_blurb{
+    margin-bottom: 75px;
+}
+
+.page3_span1{
+    color: #59A091;
+}
+
+.page3_span2{
+    color: #F16D6D;
+}
+
+.quicksand_showcase_1{
+    display: flex;
+    flex-grow: 3;
+
+    flex-direction: column;
+    border-right: 3px solid black;
+    padding-right: 10rem;
+}
+
+.quicksand_showcase_3{
+    display: flex;
+    flex-grow: 3;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.quicksand_showcase_1 h1{
+    margin: 0.25rem;
+    font-size: 48px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+
+.quicksand_showcase_3 h1, p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+
+.quicksand_showcase_1 h1:first-child{
+    font-weight: bold;
+}
+
+.quicksand_showcase_1 h1:last-child{
+    font-size: 288px;
+    font-weight: bold;
+}
+
+.quicksand_showcase_3 h1, p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+
+.quicksand_showcase_3 h1:first-child{
+    font-size: 64pt;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: relative;
+    top: -1.66rem;
+}
+
+.quicksand_showcase_3 h1:nth-child(2){
+    font-size: 27pt;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    top: -3rem;
+}
+
+.quicksand_showcase_3 p{
+    position: relative;
+    top: -4.5rem;
+}
+
+.quicksand_showcase{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+}
+
+.quicksand_showcase div{
+    padding-left: 1rem;
+}
+
+.quicksand_showcase_3_links_display{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 2rem;
+}
+
+.quicksand_showcase_3_links_display p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.quicksand_showcase_3_links_display p:nth-child(2){
+    position: relative;
+    left: 1rem;
+}
+
+.quicksand_showcase_3_links_display p:nth-child(3){
+    position: relative;
+    left: 3rem;
+}
+
+.quicksand_showcase_3_links_display p:nth-child(4){
+    position: relative;
+    left: 4rem;
+}
+
+.quicksand_showcase_3_button_display{
+    background-color: black;
+    height: 72px;
+    width: 276px;
+    display: flex;
+}
+
+.quicksand_showcase_3_button_display p{
+    color: white;
+    position: relative;
+    top: 0.33rem;
+    left: 4.5rem;
+    font-size: 14pt;
 }

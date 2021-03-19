@@ -1,7 +1,19 @@
+
 html, body{
     background-color: #D7F0EC; 
     margin: 0px;
+    position: relative;
 }
+
+
+#circle {
+    position:absolute;
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    border:2px solid #4b9e90;
+}
+
 
 .container{
     background-color: #E7F2F0; 
@@ -490,7 +502,10 @@ background: #59A091;
     margin-left:100px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0cc9cee4c5688017ad2e258248791e4a75a3ee66
 .imagess {
     position:relative;
     left:200px;
@@ -560,7 +575,18 @@ font-style: normal;
 font-size: 30px;
 
 color: #000000;
+<<<<<<< HEAD
 
 .img1{
     margin-top: 70px;
 }
+=======
+}
+.img1{
+    margin-top: 70px;
+
+}
+
+
+
+>>>>>>> 0cc9cee4c5688017ad2e258248791e4a75a3ee66

@@ -404,6 +404,7 @@ ul {
     align-items: center;
     margin-bottom: 0;
     margin-top: 0;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .quicksand_showcase_3_links_display p:nth-child(2){
@@ -422,7 +423,8 @@ ul {
 }
 
 .quicksand_showcase_3_button_display{
-    background-color: black;
+    background-color: #59A091;
+    border-radius: 5px;
     height: 72px;
     width: 276px;
     display: flex;

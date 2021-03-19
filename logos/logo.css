@@ -300,6 +300,9 @@ ul {
     justify-content: center;
     align-items: center;
 
+    position: relative;
+    top:16px;
+
     width: 350px;
 }
 
@@ -308,6 +311,12 @@ ul {
     margin-top: 20px;
     margin-left: -10px;
     width: 100px;
+
+    position: relative;
+    top:-15px;
+    left: -20px;
+
+    
 }
 
 .logo4-3{
@@ -334,6 +343,9 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    position: relative;
+    top:-5px;
 }
 
 .moveside3{

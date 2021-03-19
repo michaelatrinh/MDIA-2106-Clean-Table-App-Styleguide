@@ -108,7 +108,7 @@ ul {
 	display: flex;
 	justify-content: center;
 	width: 100vw;
-	background-color: ##59A091;
+	background-color: #59A091;
 	color: white;
 }
 
@@ -574,10 +574,7 @@ background: #59A091;
     margin-left:100px;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 0cc9cee4c5688017ad2e258248791e4a75a3ee66
 .imagess {
     position:relative;
     left:200px;
@@ -647,18 +644,15 @@ font-style: normal;
 font-size: 30px;
 
 color: #000000;
-<<<<<<< HEAD
+}
 
 .img1{
     margin-top: 70px;
 }
-=======
-}
+
 .img1{
     margin-top: 70px;
 
 }
 
 
-
->>>>>>> 0cc9cee4c5688017ad2e258248791e4a75a3ee66

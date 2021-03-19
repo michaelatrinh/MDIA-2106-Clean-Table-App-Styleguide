@@ -328,6 +328,7 @@ ul {
     top: 1.5rem;
     left: 4.5rem;
     font-size: 14pt;
+    font-family: 'Manrope', sans-serif;
 }
 
 /* --- PAGE 3 ---------------------------------------------------------------- */
@@ -493,4 +494,5 @@ ul {
     top: 0.33rem;
     left: 4.5rem;
     font-size: 14pt;
+    font-family: 'Quicksand', sans-serif;
 }

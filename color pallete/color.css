@@ -16,6 +16,37 @@ ul {
     list-style-type: none;
     margin: auto;
     padding: auto;
+    overflow: hidden;
+    background-color: #59A091;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+  }
+
+  li a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: 17.5px;
+    font-weight: 600;
+
+    transition: 0.3s;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #2D7969;
+  }
+
+
+/*
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
   }
 
   .nav-bar {
@@ -34,11 +65,10 @@ ul {
     transition: 0.3s;
   }
 
-  /*mouse over*/
   .nav-bar a:hover{
       background-color: #2D7969; 
   }
-  
+*/
 
 h1{
     position: relative;
@@ -457,15 +487,10 @@ background: #59A091;
 
 .part2 {
     display: inline-flex;
-<<<<<<< HEAD
     margin-left:10px;
     margin-right: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
-=======
-    margin:50px;
-    margin-left: 200px;
->>>>>>> 803e06800c7d14da6881db59b32411edaaf6dd9f
 }
 
 .textandicons{
@@ -479,7 +504,6 @@ background: #59A091;
     margin-left:100px;
 }
 
-<<<<<<< HEAD
 .imagess {
     position:relative;
     left:200px;
@@ -549,8 +573,4 @@ font-style: normal;
 font-size: 30px;
 
 color: #000000;
-=======
-.img1{
-    margin-top: 70px;
->>>>>>> 803e06800c7d14da6881db59b32411edaaf6dd9f
 }

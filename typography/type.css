@@ -253,7 +253,7 @@ ul {
 }
 
 .manrope_showcase_3 h1:nth-child(2){
-    font-size: 20pt;
+    font-size: 27pt;
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
@@ -411,12 +411,12 @@ ul {
 }
 
 .quicksand_showcase_3 h1:nth-child(2){
-    font-size: 20pt;
+    font-size: 27pt;
     margin-top: 0;
     margin-bottom: 0;
     width: 650px;
     position: relative;
-    top: -3rem;
+    top: -1.25rem;
 }
 
 .quicksand_showcase_3 p:nth{
@@ -430,7 +430,7 @@ ul {
     font-family: 'Quicksand', sans-serif;
     font-size: 20pt;
     position: relative;
-    top: -4.5rem;
+    top: -2.5rem;
     
 }
 

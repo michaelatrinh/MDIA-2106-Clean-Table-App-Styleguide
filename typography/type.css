@@ -78,9 +78,6 @@ ul {
     padding-right: 50px;
 }
 
-.page2{
-    padding-left: 50px;
-}
 
 .main_blurb p{
     font-size: 48px;
@@ -122,6 +119,7 @@ ul {
     font-family: 'Manrope', sans-serif;
     font-size: 40px;
     margin-top: 4rem;
+    left: 10px;
 }
 .main_second_blurb p:nth-child(3){
     display: flex;
@@ -130,12 +128,14 @@ ul {
     font-weight: 300;
     font-size: 42px;
     margin: 0;
+    left: 10px;
 }
 .main_second_blurb p:nth-child(4){
     display: flex;
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 40px;
+    left: 10px;
 }
 
 
@@ -152,10 +152,12 @@ ul {
 .page2_main_blurb p{
     font-size: 36px;
     font-family: 'Manrope', sans-serif;
+
 }
 
 .page2_main_blurb{
     margin-bottom: 75px;
+    margin-left: 60px;
 }
 
 .page2_span1{
@@ -170,6 +172,7 @@ ul {
 
 .manrope_showcase{
     display: flex;
+    margin-left: 50px;
     
 }
 
@@ -292,7 +295,14 @@ ul {
     height: 72px;
     width: 276px;
     border-radius: 5px;
+
+    transition: 0.3s;
 }
+
+.manrope_showcase_3_button_display:hover{
+    background-color: #2D7969;
+}
+
 
 .manrope_showcase_3_button_display p{
     color: white;
@@ -307,8 +317,9 @@ ul {
 
 .page3{
     width: 100%;
-    padding-left: 50px;
     height: 940px;
+
+    margin-left: 50px;
 }
 
 .page3_main_blurb p{
@@ -384,13 +395,22 @@ ul {
     font-size: 20pt;
     margin-top: 0;
     margin-bottom: 0;
+    width: 650px;
     position: relative;
     top: -3rem;
+}
+
+.quicksand_showcase_3 p:nth{
+    position: relative;
+    top: -4.5rem;
+    font-size: 20pt;
+    
 }
 
 .quicksand_showcase_3 p{
     position: relative;
     top: -4.5rem;
+    
 }
 
 .quicksand_showcase{
@@ -439,6 +459,12 @@ ul {
     height: 72px;
     width: 276px;
     display: flex;
+
+    transition: 0.3s;
+}
+
+.quicksand_showcase_3_button_display:hover{
+    background-color: #2D7969;
 }
 
 .quicksand_showcase_3_button_display p{

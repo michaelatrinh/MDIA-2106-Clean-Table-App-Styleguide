@@ -1,15 +1,12 @@
 html, body{
     margin: 0;
     max-width: 100%;
-}
+    background-color: #D7F0EC;
 
-html{
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: #E7F2F0; 
-}
+
 
 /* --- PAGE 1 ----------------------------------------------------------------*/
 
@@ -42,6 +39,16 @@ ul {
       background-color: #2D7969; 
   }
 
+.container{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: -5px;
+
+    background-color: #E7F2F0;
+}  
+
 .main{
     display: flex;
     flex-direction: column;
@@ -50,18 +57,12 @@ ul {
 .main_title{
     font-family: 'Manrope', sans-serif;
     font-size: 96px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .rectangle1{
-    position: absolute;
-    width: 622px;
-    height: 6px;
-    /*
-    left: 63px;
-    top: 201px;
-    */
-    background: #59A091;
+    border-bottom: 6px solid #59A091;
+    width: 1023px;
 }
 
 .page1, .page2, .page3{
@@ -85,30 +86,34 @@ ul {
     font-size: 48px;
     font-family: 'Quicksand', sans-serif;
     position: relative;
-    left: 168px;
-    top: 100px;
+    left: 0px;
+
 }
 
 .span1{
     color: #59A091;
+    font-weight: 900;
 }
 
 .span2{
     color: #FFC32E;
+    font-weight: 900;
 }
 
 .main_second_blurb{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    margin-left: -50px;
 }
 
 .main_second_blurb p{
     font-size: 36px;
     font-family: 'Quicksand', sans-serif;
     position: relative;
-    left: 168px;
-    top: 50px;
+    left: 50px;
+    top: 10px;
 }
 
 .main_second_blurb p:nth-child(2){
@@ -154,10 +159,12 @@ ul {
 
 .page2_span1{
     color: #59A091;
+    font-weight: 900;
 }
 
 .page2_span2{
     color: #F16D6D;
+    font-weight: 900;
 }
 
 .manrope_showcase{
@@ -224,7 +231,7 @@ ul {
 }
 
 .manrope_showcase_3 h1:nth-child(2){
-    font-size: 27pt;
+    font-size: 20pt;
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
@@ -313,10 +320,12 @@ ul {
 
 .page3_span1{
     color: #59A091;
+    font-weight: 900;
 }
 
 .page3_span2{
     color: #F16D6D;
+    font-weight: 900;
 }
 
 .quicksand_showcase_1{
@@ -370,7 +379,7 @@ ul {
 }
 
 .quicksand_showcase_3 h1:nth-child(2){
-    font-size: 27pt;
+    font-size: 20pt;
     margin-top: 0;
     margin-bottom: 0;
     position: relative;

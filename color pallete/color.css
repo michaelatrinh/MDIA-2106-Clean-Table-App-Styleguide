@@ -1,5 +1,6 @@
-body{
-    background-color: #E7F2F0; 
+html, body{
+    background-color: #D7F0EC; 
+    margin: 0px;
 }
 
 .container{
@@ -7,6 +8,8 @@ body{
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
+
+    margin-top: -63px;
 }
 
 ul {
@@ -80,6 +83,20 @@ h1{
     color: #59A091;
 }
 
+.seaweed_text2{
+    position: relative;
+    width: 479px;
+    height: 90px;
+    left: 150px;
+    top: 50px;
+    
+    font-family: Quicksand;
+    font-style: normal;
+    font-size: 25px;
+    
+    color: #000000;
+}
+
 .mango_text{
     position: relative;
     width: 483px;
@@ -96,6 +113,19 @@ h1{
 .mango{
     font-weight: bold;
     color: #FFC32E; 
+}
+
+.mango_text2{
+    position: relative;
+    width: 483px;
+    height: 127px;
+    left: 123px;
+    top: 70px;
+    
+    font-family: Quicksand;
+    font-style: normal;
+    font-size: 25px;
+    color: #000000; 
 }
 
 .salmon_text{
@@ -116,6 +146,18 @@ color: #000000;
     color: #F16D6D;
   }
 
+.salmon_text2{
+    position: relative;
+    width: 466px;
+    height: 141px;
+    left: 123px;
+    top: 70px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-size: 25px;
+    color: #000000;
+}  
+
 .blackberry_text{
     position: relative;
 width: 483px;
@@ -133,6 +175,20 @@ color: #000000;
 .blackberry{
     font-weight: bold;
     color: #302B40;
+}
+
+.blackberry_text2{
+    position: relative;
+    width: 483px;
+    height: 100px;
+    left: 100px;
+    top: 50px;
+    
+    font-family: Quicksand;
+    font-style: normal;
+    font-size: 25px;
+    
+    color: #000000;
 }
 
 .coconut_text{
@@ -153,6 +209,19 @@ color: #000000;
     font-weight: normal;
     color:#FFFFFF;
     text-shadow:2px 2px #000000;
+}
+
+.coconut_text2{
+    font-family: Quicksand;
+    font-style: normal;
+    font-size: 25px;
+
+    color: #000000;
+    width: 500px;
+    left: 230px;
+    
+    margin-top: 50px;
+    position: absolute;
 }
 
 .color_description{
@@ -387,14 +456,15 @@ background: #59A091;
 
 .body2 {
     background-color:#BEE2DC;
-    height: 1900px;
+    margin-top: -850px;
     position: relative;
-    bottom:900px;
+    
 }
 
 .part2 {
     display: inline-flex;
     margin:50px;
+    margin-left: 200px;
 }
 
 .textandicons{
@@ -403,9 +473,11 @@ background: #59A091;
     margin:auto;
 }
 
-.para{
+#para{
     position: relative;
-    left:600px;
+    margin-left:100px;
 }
 
-.imagess
+.img1{
+    margin-top: 70px;
+}

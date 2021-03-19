@@ -1,6 +1,6 @@
 html, body{
     margin: 0;
-    max-width: 100%;
+
     background-color: #D7F0EC;
 
     scroll-behavior: smooth;
@@ -77,16 +77,11 @@ ul {
     padding-left: 50px;
     padding-right: 50px;
 }
-<<<<<<< HEAD
-
-
-=======
 /*
 .page2{
     padding-left: 50px;
 }
 */
->>>>>>> 7affa233700a55a9d281f07a16cfb983730082d1
 .main_blurb p{
     font-size: 48px;
     font-family: 'Quicksand', sans-serif;
@@ -128,7 +123,15 @@ ul {
     font-size: 40px;
     margin-top: 4rem;
     left: 10px;
+
+    transition: 0.3s;
 }
+
+.main_second_blurb p:nth-child(2):hover{
+    color: #59A091;
+    font-weight: 900;
+}
+
 .main_second_blurb p:nth-child(3){
     display: flex;
     justify-content: center;
@@ -138,14 +141,21 @@ ul {
     margin: 0;
     left: 10px;
 }
+
 .main_second_blurb p:nth-child(4){
     display: flex;
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 40px;
     left: 10px;
+
+    transition: 0.3s;
 }
 
+.main_second_blurb p:nth-child(4):hover{
+    color: #59A091;
+    font-weight: 900;
+}
 
 /* --- PAGE 2 ------------------------------------------------------------------ */
 

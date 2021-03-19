@@ -68,14 +68,12 @@ h1{
     position: relative;
     width: 479px;
     height: 90px;
-    left: 127px;
-    top: 30px;
+    left: 100px;
+    top: 20px;
     
     font-family: Quicksand;
     font-style: normal;
-    font-size: 18px;
-    line-height: 22px;
-    
+    font-size: 20px;
     color: #000000;
 }
 .seaweed{
@@ -101,13 +99,12 @@ h1{
     position: relative;
     width: 483px;
     height: 127px;
-    left: 123px;
-    top: 70px;
+    left: 100px;
+    top: 40px;
     
     font-family: Quicksand;
     font-style: normal;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 20px;
     color: #000000; 
 }
 .mango{
@@ -132,12 +129,11 @@ h1{
     position: relative;
 width: 466px;
 height: 141px;
-left: 123px;
-top: 70px;
+left: 100px;
+top: 50px;
 font-family: Quicksand;
 font-style: normal;
-font-size: 18px;
-line-height: 22px;
+font-size: 20px;
 color: #000000;
 }
 
@@ -162,13 +158,12 @@ color: #000000;
     position: relative;
 width: 483px;
 height: 127px;
-left: 123px;
-top: 70px;
+left: 100px;
+top: 50px;
 
 font-family: Quicksand;
 font-style: normal;
-font-size: 18px;
-line-height: 22px;
+font-size: 20px;
 
 color: #000000;
 }
@@ -195,13 +190,12 @@ color: #000000;
     position: relative;
 width: 501px;
 height: 127px;
-left: 123px;
+left: 100px;
 top: 70px;
 
 font-family: Quicksand;
 font-style: normal;
-font-size: 18px;
-line-height: 22px;
+font-size: 20px;
 
 color: #000000;
 }
@@ -474,8 +468,15 @@ background: #59A091;
 
 .part2 {
     display: inline-flex;
+<<<<<<< HEAD
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+=======
     margin:50px;
     margin-left: 200px;
+>>>>>>> 803e06800c7d14da6881db59b32411edaaf6dd9f
 }
 
 .textandicons{
@@ -489,6 +490,78 @@ background: #59A091;
     margin-left:100px;
 }
 
+<<<<<<< HEAD
+.imagess {
+    position:relative;
+    left:200px;
+}
+
+.seaweed_text2{
+    position: relative;
+    width: 479px;
+    height: 90px;
+    left: 333px;
+    top: -20px;
+    
+    font-family: Quicksand;
+    font-style: normal;
+    font-size: 30px;
+    color: #000000;
+}
+
+.mango_text2{
+    position: relative;
+    width: 483px;
+    height: 127px;
+    left: 300px;
+    top: -40px;
+    
+    font-family: Quicksand;
+    font-style: normal;
+    font-size: 30px;
+    color: #000000; 
+}
+
+.salmon_text2{
+    position: relative;
+width: 466px;
+height: 141px;
+left: 290px;
+top: -40px;
+font-family: Quicksand;
+font-style: normal;
+font-size: 30px;
+color: #000000;
+}
+
+.coconut_text2{
+    position: relative;
+width: 501px;
+height: 127px;
+left: 390px;
+top: -50px;
+
+font-family: Quicksand;
+font-style: normal;
+font-size: 30px;
+
+color: #000000;
+}
+
+.blackberry_text2{
+    position: relative;
+width: 483px;
+height: 127px;
+left: 240px;
+top: -30px;
+
+font-family: Quicksand;
+font-style: normal;
+font-size: 30px;
+
+color: #000000;
+=======
 .img1{
     margin-top: 70px;
+>>>>>>> 803e06800c7d14da6881db59b32411edaaf6dd9f
 }

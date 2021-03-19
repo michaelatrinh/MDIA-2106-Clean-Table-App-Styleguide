@@ -448,7 +448,7 @@ ul {
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: 2rem;
+    top: -0.5rem;
 }
 
 .quicksand_showcase_3_links_display p{

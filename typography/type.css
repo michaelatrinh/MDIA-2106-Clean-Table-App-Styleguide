@@ -287,9 +287,10 @@ ul {
 }
 
 .manrope_showcase_3_button_display{
-    background-color: black;
+    background-color: #59A091;
     height: 72px;
     width: 276px;
+    border-radius: 5px;
 }
 
 .manrope_showcase_3_button_display p{

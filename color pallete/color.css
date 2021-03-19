@@ -6,15 +6,6 @@ html, body{
 }
 
 
-#circle {
-    position:absolute;
-    height:35px;
-    width:35px;
-    border-radius:50%;
-    border:2px solid #4b9e90;
-}
-
-
 .container{
     background-color: #E7F2F0; 
     width: 1440px;
@@ -51,6 +42,87 @@ ul {
       background-color: #2D7969; 
   }
   
+
+  .circle {
+	width: 50vh;
+	height: 50vh;
+	position: absolute;
+	border-radius: 50%;
+}
+
+
+#one {
+	background-color: #59A091;
+	transition: 1s;
+	opacity: 0.5;
+}
+#two {
+	background-color: #6FC3B2;
+	transition: 1s;
+	opacity: 0.5;
+}
+
+#three {
+	background-color: #B8E0D8;
+	transition: 1s;
+	opacity: 0.5;
+}
+
+#four {
+	background-color: #D4E9E5;
+	transition: 1s;
+	opacity: 0.5;
+}
+#five {
+	background-color: green;
+	transition: 1s;
+	opacity: 0.5;
+}
+
+#cc {
+	position:relative;
+	width: 50vh;
+	height: 50vh;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+#cc:hover #two {
+	transform: translate(0px, 75px);
+}
+#cc:hover #three {
+	transform: translate(0px, -75px);
+}
+#cc:hover #four {
+	transform: translate(75px, 0px);
+}
+#cc:hover #five {
+	transform: translate(-75px, 0px);
+}
+
+#mb {
+	position: absolute;
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 0.5px;
+	bottom: 0px;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	background-color: ##59A091;
+	color: white;
+}
+
+#mb a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0px;
+}
+
+#mb p {
+	padding: 5px;
+	margin: 0px;
+}
 
 h1{
     position: relative;

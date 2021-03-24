@@ -1,7 +1,31 @@
 html, body{
-    background-color: #BEE2DC; 
+    background: linear-gradient(-45deg, #59A091,#70BDAF, #D7F0EC );
+    background-size: 400% 400%;
     margin: 0px;
     position: relative;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.position{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+
+    height: 1024px;
+    width: 1440px;
+
 }
 
 .cleantable {
@@ -49,7 +73,9 @@ html, body{
     position: relative;
     left: 410px;
     top: 10px;
+
 }
+
 
 button {
     height: 94px;
@@ -67,6 +93,8 @@ button {
     position: relative;
     bottom:500px;
     left: 360px;
+
+    transition: 0.3s;
 }
 
 button:hover{
@@ -75,12 +103,16 @@ button:hover{
 
 .container {
     position: relative;
-    left:50px;
+    margin-left: auto;
+
+    top: 150px;
+    left: 50px;
+
 }
 
 .names {
     position:relative;
-    bottom: 1320px;
+    bottom: 1140px;
     left: 830px;
 
     color: white;

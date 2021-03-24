@@ -1,0 +1,32 @@
+html, body{
+    background-color: #BEE2DC; 
+    margin: 0px;
+    position: relative;
+}
+
+.clean {
+    font-family: Manrope;
+    color: white;
+    font-weight: bold;
+    font-size: 150px;
+}
+
+.table {
+    font-family: Manrope;
+    color: white;
+    font-weight: bold;
+    font-size: 150px;
+}
+
+.rectangle{
+    width: 20px;
+    height: 1000px;
+    background-color: white;
+
+    position:relative;
+    bottom: 300px;
+    left: 600px;
+
+    
+
+}

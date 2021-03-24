@@ -457,7 +457,7 @@ ul {
     margin-left: 130px;
 }
 
-img:hover {
+.imageWiggle:hover {
    
     animation: shake 0.5s;
   

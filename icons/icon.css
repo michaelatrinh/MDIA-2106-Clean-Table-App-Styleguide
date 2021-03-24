@@ -155,11 +155,26 @@ ul {
     margin-top: 100px;
 }
 
+.reference{
+    padding-top: 1px;
+    height: 500px;
+    margin-bottom: 0%;
+    margin-top: 100px;
+}
+
 .imageryheader{
     font-size: 96px;
     position:relative;
     left:1000px;
     top: -40px;
+    font-family: manrope;
+}
+
+.referenceheader{
+    font-size: 96px;
+    position:relative;
+    left:60px;
+    top: -150px;
     font-family: manrope;
 }
 
@@ -172,6 +187,17 @@ ul {
 
     background: #59A091;
 }
+
+.rectangle3{
+    position: absolute;
+    width: 832px;
+    height: 6px;
+    left: -5px;
+    top: 150px;
+
+    background: #59A091;
+}
+
 
 .foodimage1{
     position: relative;
@@ -207,6 +233,40 @@ ul {
 
 .imagerydiv{
     display: inline-flex;
+}
+
+.linkdiv{
+
+    top: -200px;
+    bottom: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    background-color: #59A091; 
+    padding: 20px; 
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: #BEE2DC;
+    border: 3px #59A091 solid;
+    color: #59A091;
+    font-weight: bold; 
+    letter-spacing: 4px;
+}
+
+.abut{
+    color: white;
+    text-decoration: none;
 }
 
 .container{

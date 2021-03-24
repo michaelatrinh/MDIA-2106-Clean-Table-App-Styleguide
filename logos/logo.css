@@ -68,6 +68,13 @@ ul {
   }
 */
   /* general */
+
+  .clean_table{
+ float:left;
+ position: relative;
+ z-index: 8;
+
+  }
   span{
     font-weight: 900;
   }

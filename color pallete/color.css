@@ -707,19 +707,19 @@ background: #59A091;
 
 #para{
     position: relative;
-    margin-left:100px;
+    left:300px;
 }
 
 .imagess {
     position:relative;
-    left:-50px;
+    left:100px;
 }
 
 .seaweed_text2{
     position: relative;
     width: 479px;
     height: 90px;
-    right: 13px;
+    right:0px;
     top: -20px;
     
     font-family: Quicksand;
@@ -757,7 +757,7 @@ color: #000000;
     position: relative;
 width: 501px;
 height: 127px;
-right: 390px;
+right: 200px;
 top: -50px;
 
 font-family: Quicksand;
@@ -772,7 +772,7 @@ color: #000000;
 width: 483px;
 height: 127px;
 right: 250px;
-top: -50px;
+top: 30px;
 
 font-family: Quicksand;
 font-style: normal;

@@ -47,7 +47,7 @@ html, body{
 
 .img {
     position: relative;
-    left: 400px;
+    left: 410px;
     top: 10px;
 }
 
@@ -67,6 +67,10 @@ button {
     position: relative;
     bottom:500px;
     left: 360px;
+}
+
+button:hover{
+    background-color: #59A091;
 }
 
 .container {

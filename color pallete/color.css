@@ -437,11 +437,11 @@ color: #000000;
     font-size: 25px;
 
     color: #000000;
-    width: 500px;
+    width: 479px;
     left: 230px;
     
     margin-top: 50px;
-    position: absolute;
+    /*position: absolute;*/
 }
 
 .color_description{
@@ -702,14 +702,14 @@ background: #59A091;
 */
     flex-direction: row;
     flex-grow: 1;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .textandicons{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
     /*margin:auto;*/
     flex-direction: column;
 }
@@ -720,7 +720,7 @@ background: #59A091;
 }
 
 .imagess {
-    position:relative;
+    /*position:relative;*/
     left:-50px;
     width: 344px;
 }

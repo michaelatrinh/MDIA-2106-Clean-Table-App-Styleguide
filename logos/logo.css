@@ -35,6 +35,15 @@ ul {
     background-color: #2D7969;
   }
 
+  .whttbl{
+      width: 80%;
+  }
+
+  .logotbl{
+      width: 100px;
+      margin-left: -20px;
+  }
+
 
 /*
 
@@ -69,10 +78,19 @@ ul {
 */
   /* general */
 
-  span{
-    font-weight: 900;
+
+  /*.clean_table{
+
+ position: relative;
+ top: 50px;
+ left: 550px;
+ z-index: 8;
   }
 
+
+  span{
+    font-weight: 900;
+  }*/
 
 .container{
     width: 1440px;

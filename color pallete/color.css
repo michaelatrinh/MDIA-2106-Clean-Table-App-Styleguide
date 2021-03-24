@@ -321,7 +321,7 @@ h1{
 }
 
 .mango_text{
-    /*position: relative;*/
+    position: relative;
     width: 483px;
     height: 127px;
     left: 100px;

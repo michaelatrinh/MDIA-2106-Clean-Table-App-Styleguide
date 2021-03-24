@@ -69,14 +69,6 @@ ul {
 */
   /* general */
 
-  .clean_table{
-
- position: relative;
- top: 50px;
- left: 550px;
- z-index: 8;
-  }
-
   span{
     font-weight: 900;
   }

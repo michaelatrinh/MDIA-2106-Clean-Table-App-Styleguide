@@ -37,39 +37,42 @@ ul {
 
 
   .button{
-    background-color: #59A091;
-    border: none;
-    padding: 30px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-
+    background-color: #59A091; 
+    padding: 20px; 
     border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+
+    cursor: pointer;
     transition: 0.3s;
   }
 
   .abut{
     color: white;
+    font-size: 20px;
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
   }
 
   .abut:hover{
-    color: #59A091;
-    border-style: solid 1px #59A091;
+    color: white;
+    text-decoration: none;
+  
   }
-
 
   .button-container{
       margin-left: 500px;
-      margin-top: 100px;
+      margin-top: -100px;
   }
 
   .button:hover{
-      background-color: white;
-      color: #59A091;
-      border-style: solid 1px #59A091;
+    background-color: #BEE2DC;
+    border: 3px #59A091 solid;
+    color: #59A091;
+    font-weight: bold; 
+    letter-spacing: 4px;
   }
 
 /*

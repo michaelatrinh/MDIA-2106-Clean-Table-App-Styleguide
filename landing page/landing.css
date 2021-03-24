@@ -1,0 +1,91 @@
+html, body{
+    background-color: #BEE2DC; 
+    margin: 0px;
+    position: relative;
+}
+
+.cleantable {
+    position: relative;
+    top: 50px;
+}
+
+.clean {
+    font-family: Manrope;
+    color: white;
+    font-weight: bold;
+    font-size: 150px;
+    margin-left: 100px;
+
+    position: relative;
+    left:40px;
+    top:-150px;
+    
+}
+
+.table {
+    font-family: Manrope;
+    color: white;
+    font-weight: bold;
+    font-size: 150px;
+    margin-left: 130px;
+
+    position: relative;
+    bottom: 350px;
+    left: 45px;
+    
+}
+
+.rectangle{
+    width: 15px;
+    height: 650px;
+    background-color: white;
+
+    position:relative;
+    bottom: 1080px;
+    left: 700px;
+}
+
+.img {
+    position: relative;
+    left: 410px;
+    top: 10px;
+}
+
+button {
+    height: 94px;
+    width:260px;
+    border-radius: 20px;
+    border-color: #70BDAF;
+
+    background-color: #70BDAF;
+    color: white;
+
+    font-family: manrope;
+    font-size: 36px;
+    font-weight: bold;
+
+    position: relative;
+    bottom:500px;
+    left: 360px;
+}
+
+button:hover{
+    background-color: #59A091;
+}
+
+.container {
+    position: relative;
+    left:50px;
+}
+
+.names {
+    position:relative;
+    bottom: 1320px;
+    left: 830px;
+
+    color: white;
+    font-family: manrope;
+    font-size: 30px;
+    font-weight: bold;
+
+}

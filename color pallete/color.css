@@ -44,6 +44,15 @@ ul {
   }
 
 
+.whttbl{
+    width: 80%;
+}
+
+.logotbl{
+    width: 100px;
+    margin-left: -20px;
+}
+
   .circle {
 	width: 7vh;
 	height: 7vh;

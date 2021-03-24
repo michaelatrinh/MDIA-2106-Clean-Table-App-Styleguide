@@ -39,6 +39,15 @@ ul {
     background-color: #2D7969;
   }
 
+  .whttbl{
+    width: 80%;
+}
+
+.logotbl{
+    width: 100px;
+    margin-left: -20px;
+}
+
 /*
 ul {
     list-style-type: none;

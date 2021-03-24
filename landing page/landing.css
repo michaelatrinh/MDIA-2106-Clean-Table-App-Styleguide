@@ -59,13 +59,27 @@ html, body{
     
 }
 
+.styleguide{
+    font-family: Manrope;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 130px;
+
+    position: relative;
+    bottom: 500px;
+    left: 225px;
+
+    height: 50px;
+}
+
 .rectangle{
     width: 15px;
-    height: 650px;
+    height: 800px;
     background-color: white;
 
     position:relative;
-    bottom: 1080px;
+    bottom: 1180px;
     left: 700px;
 }
 
@@ -112,7 +126,7 @@ button:hover{
 
 .names {
     position:relative;
-    bottom: 1140px;
+    bottom: 1240px;
     left: 830px;
 
     color: white;

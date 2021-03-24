@@ -44,13 +44,18 @@ ul {
   }
 
 
-.whttbl{
-    width: 80%;
+  .whttbl{
+    width: 32px;
 }
 
 .logotbl{
     width: 100px;
     margin-left: -20px;
+}
+
+.logoNavA{
+    padding-bottom: 10px;
+    padding-top: 16px;
 }
 
   .circle {

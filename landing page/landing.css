@@ -76,5 +76,12 @@ button {
 
 .names {
     position:relative;
-    
+    bottom: 1320px;
+    left: 830px;
+
+    color: white;
+    font-family: manrope;
+    font-size: 30px;
+    font-weight: bold;
+
 }

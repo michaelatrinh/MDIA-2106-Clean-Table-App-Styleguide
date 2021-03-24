@@ -307,9 +307,9 @@ h1{
 }
 
 .seaweed_text2{
-    position: relative;
+    /*position: relative;*/
     width: 479px;
-    height: 90px;
+    /*height: 90px;*/
     left: 100px;
     top: 50px;
     
@@ -321,7 +321,7 @@ h1{
 }
 
 .mango_text{
-    position: relative;
+    /*position: relative;*/
     width: 483px;
     height: 127px;
     left: 100px;
@@ -338,11 +338,11 @@ h1{
 }
 
 .mango_text2{
-    position: relative;
-    width: 483px;
-    height: 127px;
-    left: 123px;
-    top: 70px;
+    /*position: relative;*/
+    width: 479px;
+    /*height: 127px;*/
+    left: 100px;
+    top: 50px;
     
     font-family: Quicksand;
     font-style: normal;
@@ -368,11 +368,12 @@ color: #000000;
   }
 
 .salmon_text2{
-    position: relative;
-    width: 466px;
-    height: 141px;
+    /*position: relative;*/
+    width: 479px;
+    /*height: 141px;*/
     left: 123px;
     top: 70px;
+
     font-family: Quicksand;
     font-style: normal;
     font-size: 25px;
@@ -398,9 +399,9 @@ color: #000000;
 }
 
 .blackberry_text2{
-    position: relative;
-    width: 483px;
-    height: 100px;
+    /*position: relative;*/
+    width: 479px;
+    /*height: 100px;*/
     left: 100px;
     top: 50px;
     
@@ -692,29 +693,38 @@ background: #59A091;
 }
 
 .part2 {
-    display: inline-flex;
+    display: flex;
+/*
     margin-left:10px;
     margin-right: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
+*/
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .textandicons{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin:auto;
+    /*margin:auto;*/
+    flex-direction: column;
 }
 
 #para{
-    position: relative;
+    /*position: relative;*/
     margin-left:100px;
 }
 
 .imagess {
     position:relative;
     left:-50px;
+    width: 344px;
 }
-
+/*
 .seaweed_text2{
     position: relative;
     width: 479px;
@@ -781,6 +791,7 @@ font-size: 30px;
 color: #000000;
 
 }
+*/
 
 .img1{
     margin-top: 70px;

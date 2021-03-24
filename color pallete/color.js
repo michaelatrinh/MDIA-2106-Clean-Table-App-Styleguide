@@ -1,4 +1,4 @@
-document.addEventListener('mousemove', function(e) {
+/*document.addEventListener('mousemove', function(e) {
     let body = document.querySelector('body');
     let circle = document.getElementById('circle');
     let left = e.offsetX;
@@ -6,3 +6,4 @@ document.addEventListener('mousemove', function(e) {
     circle.style.left = left + 'px';
     circle.style.top = top + 'px';
   });
+*/

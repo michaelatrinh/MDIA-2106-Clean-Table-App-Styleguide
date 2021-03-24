@@ -47,7 +47,7 @@ html, body{
 
 .img {
     position: relative;
-    left: 400px;
+    left: 410px;
     top: 10px;
 }
 
@@ -69,6 +69,10 @@ button {
     left: 360px;
 }
 
+button:hover{
+    background-color: #59A091;
+}
+
 .container {
     position: relative;
     left:50px;
@@ -76,5 +80,12 @@ button {
 
 .names {
     position:relative;
-    
+    bottom: 1320px;
+    left: 830px;
+
+    color: white;
+    font-family: manrope;
+    font-size: 30px;
+    font-weight: bold;
+
 }

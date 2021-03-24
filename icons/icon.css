@@ -1,6 +1,7 @@
 html, body{
     background-color: #D7F0EC; 
-    margin: 0;
+    margin: 0px;
+    position: relative;
 }
 
 ul {
@@ -27,7 +28,7 @@ ul {
 
     transition: 0.3s;
   }
-  
+
   li a:hover:not(.active) {
     background-color: #2D7969;
   }
@@ -62,6 +63,13 @@ ul {
   }
 
   */
+
+   .name{
+       position: relative;
+       top:60px;
+   } 
+
+
 .icondiv{
     margin-top: 100px;
     
@@ -80,7 +88,7 @@ ul {
     width: 972px;
     height: 6px;
     left: -10px;
-    top: 150px;
+    top: 175px;
 
     background: #59A091;
 }
@@ -122,6 +130,7 @@ ul {
     background-repeat: no-repeat;
     background-size: 80%;
     animation: animate 4s linear infinite;
+    animation-iteration-count: 1;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
@@ -130,10 +139,8 @@ ul {
     0% {
     background-position: -500%;
     }
-    100% {  background-position: 500%;
-     }
-
 }
+
 
 .para1{
     font-size: 30px;
